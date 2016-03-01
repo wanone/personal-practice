@@ -1,2 +1,2 @@
 # personal-practice
-个人平时的练习
+主要包含自己日常练习
