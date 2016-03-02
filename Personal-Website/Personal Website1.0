@@ -3,106 +3,7 @@
 <head>
     <meta charset="UTF-8">
 	<title>wanyinjun.com</title>
-    <style type="text/css">
-	*{
-		padding: 0;
-		margin: 0;
-	}
-	.head ul{
-		list-style-type: none;
-		margin-left:100px; 
-	}
-	.head{
-		height: 40px;
-		background-color: #333333;
-		border-bottom: 1px solid #ffffff;
-	}
-	.caption a{  
-	    float: left; 
-		display: block;
-		width: 100px;
-		height: 40px;
-		margin-right:50px; 
-		line-height: 40px;
-		font-size: 16px;
-		font-family: "Microsoft Yahei", sans-serif;
-		text-align: center;
-		text-decoration: none;
-		color: #eef4ed;
-	}
-	.caption a:hover{
-		background-color: #5a5a5a;
-	}
-	.technology{
-		list-style-type: none;
-		margin-left: 252px;
-    	display: none;
-    	z-index: 1;
-	}
-	.technology a{
-		display: block;
-		width: 95px;
-		height: 40px;
-		line-height: 40px;
-		text-decoration: none;
-		font-size: 16px;
-		font-family: "Microsoft Yahei", sans-serif;
-		text-align: center;
-		text-decoration: none;
-		background-color: #333333;
-		color: #eef4ed;
-	}
-    .technology a:hover{
-    	background-color: #5a5a5a;
-    }
-
-
-    .ntechnology{
-		list-style-type: none;
-		position: absolute;
-		top: 40px;
-		margin-left: 402px;
-		display: none;
-		z-index: 1;
-	}
-	.ntechnology a{
-		display: block;
-		width: 95px;
-		height: 40px;
-		line-height: 40px;
-		text-decoration: none;
-		font-size: 16px;
-		font-family: "Microsoft Yahei", sans-serif;
-		text-align: center;
-		text-decoration: none;
-		background-color: #333333;
-		color: #eef4ed;
-	}
-	.ntechnology a:hover{
-		background-color: #5a5a5a;
-	}
-	.bg{
-		position: absolute;
-		top: -68px;
-		z-index: -1;
-	}
-	.content{
-		height: 600px;
-		margin-top: 660px;
-		background-color: #333333;
-		z-index: 3
-	}
-	p{
-		color: #eef4ed;
-		font-size: 16px;
-		font-family: "Microsoft Yahei", sans-serif;
-		width: 1000px;
-		height: 150px;
-		margin-left: auto;
-		margin-right: auto;
-		padding: 10px;
-	}
-    </style>
+	<link rel="stylesheet" type="text/css" href="web.css">
     
 </head>
 <body>
@@ -136,67 +37,49 @@
 
 
 <div class="body">
-    <img src="270933-106.jpg" class="bg">
+    <img src="270933-106.jpg" class="bg" width="100%">
+
     <div class="content">
-    	<div >
-    		<p class="first">学习前端两个月了，一直想写篇学习心得。本文介绍了笔者从0开始学习前端的这一学习过程，大牛可直接跳过。
-
-
-工欲善其事，必先利其器。学习任何一门编程语言，首先要找到自己喜欢的editor或者IDE。工具的合理利用有利于提高我们的学习效率。当下比较流行的工具有Sublime text，Atom，Webstorm，vim等等，个人比较倾向于Sublime text。小而美的Sublime text可以达到秒开，大型工程建议使用Webstorm。
-
-
-熟练使用工具后，再去了解该领域知名博客，网站以及大牛。尽管刚开始无法看懂上面的内容，但这有利于我们随时把握该领域发展方向以及前沿趋势。大牛推荐：“温赵轮”、“真阿当”、“张克军”、“裕波”、“情封”、“豪情”等。网站推荐：前端乱炖、前端圈、前端里，W3cschool等。这里不一一举例了，没必要关注太多。<span style="color: #ffffff;text-decoration: underline;">查看全文</span></p>
+        <div class="sidebar">
+        	<img src="xiangpian.png" width="240px" height="320px" >
+        	<ul class="info">
+        		<li>Name: Yun Feng</li>
+        		<li>Add：South West Jiao Tong University</li>
+        		<li>Major: Internet Of Things</li>
+        		<li>E-mail:848540294@qq.com</li>
+        		<li>Wechat:wanyinjun</li>
+        	</ul>
+        </div>
+    	<div class="text">
+    	    <div class="first2">
+    		<p>
+    			学习前端两个月了，一直想写篇学习心得。本文介绍了笔者从0开始学习前端的这一学习过程，大牛可直接跳过。
+                工欲善其事，必先利其器。学习任何一门编程语言，首先要找到自己喜欢的editor或者IDE。工具的合理利用有利于提高我们的学习效率。当下比较流行的工具有Sublimetext,Atom,Webstorm,vim等等,个人比较倾向于Sublime text。小而美的Sublime text可以达到秒开，大型工程建议使用Webstorm。所有的资源去找项目找团队。如果实在没有合适的，可自己组建一个工作室在网上接外包，既可以赚点生活费还能有项目经验，两全其美。<a href="#">阅读原文</a>	
+    		</p>
+    		</div>
+    		<div class="second2">
+    		<p>
+    		    学习编程，必须要有项目支撑。刚开始可自己搭建一个个人网站，把自己所学到的知识用在自己的网站上。发现新的框架或者库都可以在自己的网站上实践。笔者的个人网站备案从2月5日到现在仍然没有结果，不得不怀疑信管局的办事效率了。除此之外，利用所有的资源去找项目找团队。学校一般都有实验室或者工作室之类的，都可以加入，获得项目实战经验。如果实在没有合适的，可自己组建一个工作室在网上接外包，既可以赚点生活费还能有项目经验，两全其美。如果实在没有合适的，可自己组建一个工作室在网上接外包，既可以赚点生活费还能有项目经验，两全其美。<a href="#">阅读原文</a>		
+    		</p></div>
+    		<div class="three2">
+    		<p>
+    			如果你把以上都做完了，你才刚刚及格。如果你想更深入的学习，请你先注册一个github。github汇聚了全球最顶尖的程序员，在上面你可以看到各种各样的开源项目。许多政府，例如德国，英国，日本等一些国家把一些开源项目放到上面去。你可以阅读这些优秀的开源项目的源码，并有可能的参与改进他们。此外，你还可以研究各种开源库的底层源码，掌握新的技术趋势。
+    			所有的资源去找项目找团队。学校一般都有实验室或者工作室之类的，都可以加入，获得项目实战经验。如果实在没有合适的，可自己组建一个工作室在网上接外包，既可以赚点生活费还能有项目经验，两全其美。<a href="#">阅读原文</a>
+    		</p></div>
+    	    <div class="four2">
+    	    <p>
+    	    	熟练使用工具后，再去了解该领域知名博客，网站以及大牛。尽管刚开始无法看懂上面的内容，但这有利于我们随时把握该领域发展方向以及前沿趋势。大牛推荐：“温赵轮”、“真阿当”、“张克军”、“裕波”、“情封”、“豪情”等。网站推荐：前端乱炖、前端圈、前端里，W3cschool等。这里不一一举例了，没必要关注太多。
+    	    	所有的资源去找项目找团队。学校一般都有实验室或者工作室之类的，都可以加入，获得项目实战经验。如果实在没有合适的，可自己组建一个工作室在网上接外包，既可以赚点生活费还能有项目经验，两全其美。<a href="#">阅读原文</a>
+    	    </p></div>
     	</div>
-    	<div >
-    		<p class="second">学习前端两个月了，一直想写篇学习心得。本文介绍了笔者从0开始学习前端的这一学习过程，大牛可直接跳过。
 
-
-工欲善其事，必先利其器。学习任何一门编程语言，首先要找到自己喜欢的editor或者IDE。工具的合理利用有利于提高我们的学习效率。当下比较流行的工具有Sublime text，Atom，Webstorm，vim等等，个人比较倾向于Sublime text。小而美的Sublime text可以达到秒开，大型工程建议使用Webstorm。
-
-
-熟练使用工具后，再去了解该领域知名博客，网站以及大牛。尽管刚开始无法看懂上面的内容，但这有利于我们随时把握该领域发展方向以及前沿趋势。大牛推荐：“温赵轮”、“真阿当”、“张克军”、“裕波”、“情封”、“豪情”等。网站推荐：前端乱炖、前端圈、前端里，W3cschool等。这里不一一举例了，没必要关注太多。<span style="color: #ffffff;text-decoration: underline;">查看全文</span></p>
-    	</div>
-    	<div>
-    		<p class="three">学习前端两个月了，一直想写篇学习心得。本文介绍了笔者从0开始学习前端的这一学习过程，大牛可直接跳过。
-
-
-工欲善其事，必先利其器。学习任何一门编程语言，首先要找到自己喜欢的editor或者IDE。工具的合理利用有利于提高我们的学习效率。当下比较流行的工具有Sublime text，Atom，Webstorm，vim等等，个人比较倾向于Sublime text。小而美的Sublime text可以达到秒开，大型工程建议使用Webstorm。
-
-
-熟练使用工具后，再去了解该领域知名博客，网站以及大牛。尽管刚开始无法看懂上面的内容，但这有利于我们随时把握该领域发展方向以及前沿趋势。大牛推荐：“温赵轮”、“真阿当”、“张克军”、“裕波”、“情封”、“豪情”等。网站推荐：前端乱炖、前端圈、前端里，W3cschool等。这里不一一举例了，没必要关注太多。<span style="color: #ffffff;text-decoration: underline;">查看全文</span></p>
-    	</div>
     </div>
 </div>
+
 <div class="foot">
-	<p></p>
+	<img src="foot.png" width="100%">
 </div>
 
-<script>
-    	window.onload=function(){
-    		var second=document.getElementById("second");
-    		var technology=document.getElementById("technology");
-    		var three=document.getElementById("three");
-    		var ntechnology=document.getElementById("ntechnology");
-
-    		second.onmouseover=function(){
-    			   technology.style.display="block";
-    		}
-
-    		second.onmouseup=function(){
-    			technology.style.display="none";
-    	    }	
-    	    
-        
-    	    three.onmouseover=function(){
-    			ntechnology.style.display="block";
-    		}
-    		
-    		three.onmouseup=function(){
-    			ntechnology.style.display="none";
-    	    }	
-    	    
-    	}
-
-    </script>
+<script src="web.js"></script>
 </body>
 </html>
