@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
 	<title>pictures2.0</title>
-	<link rel="stylesheet" type="text/css" href="CSS/pictures.css">
+	<link rel="stylesheet" type="text/css" href="pic.css">
 </head>
 <body >
 <div class="warp">
