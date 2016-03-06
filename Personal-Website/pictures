@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>pictures2.0</title>
+	<link rel="stylesheet" type="text/css" href="pictures2.0.css">
+</head>
+<body >
+<div class="warp">
+<div class="first">
+	<img src="image\1958-106.jpg" width="250px" height="250px" alt="first" title="first">
+	<a href="image\1958-106.jpg">first</a>
+</div>
+
+<div class="second">
+	<img src="image\270933-106.jpg" width="250px" height="250px" alt="second" title="second">
+	<a href="image\270933-106.jpg">second</a>
+</div>
+
+<div class="three">
+	<img src="image\296-106.jpg" width="250px" height="250px" alt="three" title="three">
+	<a href="image\296-106.jpg">three</a>
+</div>
+
+<div class="four">
+	<img src="image\247917-106.jpg" width="250px" height="250px" alt="four" title="four">
+	<a href="image\247917-106.jpg">four</a>
+</div>
+
+<div class="five">
+	<img src="image\247336-106.jpg" width="250px" height="250px" alt="five" title="five">
+	<a href="image\247336-106.jpg">five</a>
+</div>
+
+<div class="six">
+	<img src="image\313928-106.jpg" width="250px" height="250px" alt="six" title="six">
+	<a href="image\313928-106.jpg">six</a>
+</div>
+</div>
+<script src="pictures2.0.js"></script>
+</body>
+</html>
